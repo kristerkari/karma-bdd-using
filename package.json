@@ -1,0 +1,25 @@
+{
+  "name": "karma-mocha-using",
+  "version": "0.0.0",
+  "description": "Karma wrapper for mocha-using",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kristerkari/karma-mocha-using.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "mocha",
+    "using"
+  ],
+  "author": "Krister Kari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristerkari/karma-mocha-using/issues"
+  },
+  "homepage": "https://github.com/kristerkari/karma-mocha-using"
+}
