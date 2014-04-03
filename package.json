@@ -17,6 +17,9 @@
     "using"
   ],
   "author": "Krister Kari",
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kristerkari/karma-mocha-using/issues"
