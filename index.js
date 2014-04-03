@@ -5,8 +5,8 @@ var pattern = function(file) {
 };
 
 var framework = function(files) {
-  files.unshift(pattern(path.resolve(require.resolve('mocha-using'), '../index.js')));
+  files.unshift(pattern(path.resolve(require.resolve('bdd-using'), '../index.js')));
 };
 
 framework.$inject = ['config.files'];
-module.exports = {'framework:mocha-using': ['factory', framework]};
+module.exports = {'framework:bdd-using': ['factory', framework]};

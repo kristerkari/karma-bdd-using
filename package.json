@@ -1,28 +1,30 @@
 {
-  "name": "karma-mocha-using",
+  "name": "karma-bdd-using",
   "version": "0.0.0",
-  "description": "Karma wrapper for mocha-using",
+  "description": "Karma wrapper for bdd-using",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kristerkari/karma-mocha-using.git"
+    "url": "git://github.com/kristerkari/karma-bdd-using.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-adapter",
     "mocha",
+    "jasmine",
     "using"
   ],
   "author": "Krister Kari",
   "peerDependencies": {
+    "bdd-using": "*",
     "karma": ">=0.9"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kristerkari/karma-mocha-using/issues"
+    "url": "https://github.com/kristerkari/karma-bdd-using/issues"
   },
-  "homepage": "https://github.com/kristerkari/karma-mocha-using"
+  "homepage": "https://github.com/kristerkari/karma-bdd-using"
 }
