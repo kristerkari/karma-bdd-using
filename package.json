@@ -1,7 +1,7 @@
 {
   "name": "karma-bdd-using",
-  "version": "0.0.0",
-  "description": "Karma wrapper for bdd-using",
+  "version": "0.1.0",
+  "description": "DRY your Karma + Jasmine or Mocha tests using the data provider pattern",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
